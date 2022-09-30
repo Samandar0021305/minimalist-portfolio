@@ -10,6 +10,18 @@
     flex-direction: column;
     & h2{
         text-align: center;
-        
+
+    }
+}
+
+@media (max-width:900px){
+    .header{
+        height: 50vh;
+    }
+}
+
+@media (max-width:400px){
+    .header{
+        height: 40vh;
     }
 }
