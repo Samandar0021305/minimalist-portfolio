@@ -1,5 +1,8 @@
 .navbar{
     padding: 20px 0;
+    &__toogle{
+        display: none;
+    }
     &__list{
         width: 400px;
     & a{
@@ -17,4 +20,16 @@
     }
     }
 
+}
+
+
+@media (max-width:579px){
+    .navbar{
+        &__list{
+            display: none;
+        }
+        &__toogle{
+            display: flex;
+        }
+    }
 }
