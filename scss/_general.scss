@@ -1,8 +1,14 @@
-
+@font-face {
+    font-family: "Public Sans";
+    src: url("../fonts/PublicSans-Regular.ttf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Public Sans";
 }
 
 *::after, *::before{
@@ -13,3 +19,10 @@
 @import "./fonts";
 @import "./varibales";
 @import "./container";
+
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}

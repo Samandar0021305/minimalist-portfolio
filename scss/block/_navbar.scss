@@ -1,0 +1,20 @@
+.navbar{
+    padding: 20px 0;
+    &__list{
+        width: 400px;
+    & a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #33323D;
+        transition: 0.5s;
+        &:hover{
+            color: green;
+        }
+    }
+    }
+
+}
