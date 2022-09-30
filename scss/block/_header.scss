@@ -1,0 +1,15 @@
+.header{
+    background-image: url("../../assets/img/header-back.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & h2{
+        text-align: center;
+        
+    }
+}
