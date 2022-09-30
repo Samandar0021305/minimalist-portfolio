@@ -1,1 +1,16 @@
 $background-color:red;
+.flex-box-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-box-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
